@@ -2,34 +2,62 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Aula tabela</title>
+        <title>Tabelas HTML</title>
     </head>
     <body>
-        <!--Parte 1-->
-        <ul>
-            <li>Acordar</li>
-            <li>Exercicio</li>
-            <li>Café</li>
-            <li>Estudar</li>
-            <li>Trabalhar</li>
-            <li>Comer</li>
-            <li>Academia</li>
-            <li>Jogar</li>
-            <li>Comer</li>
-            <li>Dormir</li>
-        </ul>
-        <!--Parte 2-->
-        <ol>
-            <li>Misture 4 xícaras de farinha e 1/2 colher de chá de sal em uma tigela grande</li>
-            <li>Adicione 2 ovos, 2 colheres de sopa de manteiga derretida e 1 xícara de água morna à mistura de farinha e sal</li>
-            <li>Sove a massa até ficar lisa e elástica, depois cubra e deixe descansar por 30 minutos</li>
-            <li>Cozinhe 5 batatas descascadas até ficarem macias, depois escorra e amasse</li>
-            <li>Refogue 1 cebola picada em 2 colheres de sopa de manteiga até dourar e adicione às batatas amassadas junto com 1/2 xícara de queijo cheddar ralado</li>
-            <li>Abra a massa em uma superfície enfarinhada até ficar fina e corte círculos com um cortador de biscoitos ou copo</li>
-            <li>Recheie cada círculo com uma colher de chá de recheio de batata e queijo</li>
-            <li>Dobre a massa sobre o recheio formando uma meia-lua e pressione as bordas com um garfo para selar</li>
-            <li>Cozinhe os pierogi em água fervente salgada até subirem à superfície (3-5 minutos)</li>
-        </ol>
-
+        <!--Tabela Simples-->
+        <table>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Esporte Favorito</th>
+            </tr>
+            <tr>
+                <td>João</td>
+                <td>25 Anos</td>
+                <td>Futebol</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>30 Anos</td>
+                <td>Basquete</td>
+            </tr>
+            <tr>
+                <td>Matheus</td>
+                <td>26 Anos</td>
+                <td>Surf</td>
+            </tr>
+        </table>
+        <!--Tabela com ColSpan-->
+        <table>
+            <tr>
+                <th>Produto</th>
+                <th>Preço</th>
+                <th>Quantidade</th>
+                <th>Total</th>
+            </tr>
+            <tr>
+                <td>Camiseta</td>
+                <td>R$49,90</td>
+                <td>2</td>
+                <td>R$79,80</td>
+            </tr>
+            <tr>
+                <td>Jeans</td>
+                <td>R$89,90</td>
+                <td>1</td>
+                <td>R$89,90</td>
+            </tr>
+            <tr>
+                <td>Tenis</td>
+                <td>R$149,90</td>
+                <td>2</td>
+                <td>R$299,80</td>
+            </tr>
+            <tr>
+                <td colspan="3">Total Geral</td>
+                <td>R$R$469,50</td>
+            </tr>
+        </table>
     </body>
 </html>
