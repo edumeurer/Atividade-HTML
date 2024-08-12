@@ -1,0 +1,11 @@
+body {
+    background-color: #808080;
+}
+.title {
+    font-size: 34px;
+    font-weight: bold;
+    color: blue;
+}
+#text-primary {
+    color: orange;
+}
